@@ -1,0 +1,47 @@
+body{
+	margin: 0px;
+	padding:0px;
+	font-family: sans-serif;
+}
+
+header{
+	background-color: white;
+	position:fixed;
+	width: 100%;
+	height: 65px;
+	display: grid;
+	grid-template-columns: 1fr 1.6fr;
+	border-bottom: 1px solid lightgrey;
+}
+
+header .left{
+	display: flex;
+	float: left;
+}
+
+header .left img{
+	margin: 10px 10px 10px 15px;
+	height: 39px;
+}
+
+header .left h1{
+	font-weight: 100;
+	font-size: 25px;
+}
+
+header .right{
+	display: flex;
+	float: right;
+	align-items: center;
+}
+
+header .right a{
+	text-decoration: none;
+	font-weight: 200;
+	margin: 15px;
+	color: grey;
+}
+
+header .right a:hover{
+	border-bottom: 2px solid #42b983;
+}
