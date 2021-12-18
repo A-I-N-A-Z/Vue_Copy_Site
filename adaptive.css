@@ -1,0 +1,55 @@
+@media screen and (min-width: 870px){
+	header .burger{
+		visibility: hidden;
+	}
+}
+
+@media screen and (max-width: 870px){
+	header .right{
+		display: none;
+	}
+	header{
+		display: flex;
+		justify-content: center;
+	}
+	header	.burger{
+		margin: 20px;
+		visibility:visible; 
+		height: 25px;
+		cursor: pointer;
+	}
+
+	.headding{
+		display:block;
+		text-align:center;
+	}
+
+	.headding article h1{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.plus{
+		display: block;
+		
+	}
+
+	.item {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media screen and (max-width: 615px){
+	.headding article h1{
+		width: 300px;
+		font-size: 30px;
+	}
+
+	.headding article .butt1{
+		font-size: 15px;
+	}
+	.headding article .butt2{
+		font-size: 15px;
+	}
+}
